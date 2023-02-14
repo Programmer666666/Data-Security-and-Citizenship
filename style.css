@@ -1,0 +1,210 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #3eea60;
+}
+.logo{
+  width: 70px;
+}
+body{
+  display: block;
+  overflow-x: hidden;
+}
+nav{
+  background-color: white;
+}
+.navbar-brand img{
+  max-height: 50px;
+}
+.navbar-brand{
+  font-size: 24px;
+  font-weight: 900;
+  color: #2596be;
+}
+
+nav ul li a{
+  color: #2596be;
+  font-size: 16px;
+  margin: auto 10px;
+}
+nav ul li a:hover{
+  color:#3771c8;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px #1141a2;
+}
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+h1, h5 {
+  text-align: center;
+  color: #1141a2;
+  font-weight: 700;
+  font-family: var(--bs-font-sans-serif);
+}
+section h1,h2,h3,h4 {
+  font-weight: 700;
+  color: #1141a2;
+  margin-bottom: 20px;
+}
+section p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#hero .col {
+  justify-content: center; 
+  flex-direction: column;
+  display: flex;
+}
+#hero .img-col {
+  justify-content: flex-end; 
+  margin-top: 20px;
+}
+#hero img {
+  max-width: 100% !important;
+  width: 100%;
+}
+#hero .card {
+  box-shadow: 11px 7px 16px #f9f9f9;
+  border: 0;
+  text-align: center;
+}
+#hero .icon {
+  width: 50px;
+  margin-bottom: 20px;
+}
+#photos .photos{
+  margin-bottom: 50px;
+  border: none;
+  padding-bottom: 15px;
+}
+.footer{
+  background: #31678c;
+  color:#ffffff;
+}
+#facebookLogo {
+  color: #ffffff;
+  padding-right: 2px;
+}
+
+#facebookLogo:hover {
+ color: #1141a2; 
+}
+
+#instagramLogo {
+  color: #ffffff;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+#instagramLogo:hover {
+ color: #1141a2; 
+}
+#email:link {
+  text-decoration: none;
+  color: #072978;
+}
+#email:hover {
+  text-decoration: underline;
+  color: #3eea60;
+}
+
+#emails:link {
+  text-decoration: none;
+  color: #072978;
+}
+#emails:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+#landline:link {
+  text-decoration: none;
+  color: #072978;
+}
+#landline:hover {
+  text-decoration: underline;
+  color: #3eea60;
+}
+
+#landlines:link {
+  text-decoration: none;
+  color: #072978;
+}
+#landlines:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+  .links ul {
+    list-style-type: none;
+  }
+  .links li a{
+      color: #ffffff;
+      transition: color .2s;
+    text-decoration:none;
+  }
+    .links li a:hover{
+        text-decoration:none;
+        text-transform: uppercase;
+        color: #3eea60;
+        }
+  
+  .about-company i{
+    font-size: 25px;
+  }
+  .about-company  a{
+      color:#ffffff;
+      transition: color .2s;
+  }
+    .about-company  a:hover{
+      color:#4180CB;
+    }
+
+input {
+  color: #00ccff;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  max-width: 50%;
+  border-radius: 50px !important;
+  background-color: #77ace1;
+  color: #1141a2;
+}
+button-link{
+  color: black;
+}
+button:hover{
+  text-transform: uppercase;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+td{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--bs-font-sans-serif);
+}
+
+tr:hover {background-color: #00ccff;}
+
+ul {
+    list-style-type: circle;
+  }
+li a{
+    font-family: var(--bs-font-sans-serif);
+    font-weight: 400;
+  }
